@@ -24,7 +24,7 @@ class MySort():
 
 
 if __name__ == "__main__":
-    sorted_data = MySort(10, 1000, 10)
+    sorted_data = MySort(10, 1000, 100)
 
     sorted_data.mysort()
     sorted_data.printdata()
