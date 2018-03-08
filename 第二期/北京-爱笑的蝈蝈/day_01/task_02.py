@@ -32,3 +32,9 @@ if __name__ == '__main__':
 
     #生成一个随机数，在（0，1）之间
     print(random.random())
+
+    #生成10个随机数
+    for i in range(10):
+        list_data = []
+        list_data.append(random.randrange(10,60))
+        print(list_data)
